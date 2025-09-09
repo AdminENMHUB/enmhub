@@ -1,0 +1,52 @@
+﻿/* src/app/globals.css */
+@import "tailwindcss";
+
+/* Page background + glass design system */
+:root {
+  --glass: 0.2;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-br from-[#0b0b12] via-[#0a0a1a] to-[#120a1a];
+}
+
+.bg-page {
+  @apply bg-gradient-to-br from-[#0b0b12] via-[#0a0a1a] to-[#120a1a];
+}
+
+.badge {
+  @apply inline-flex items-center px-2 py-1 rounded-full bg-pink-500/15 text-pink-200 border border-pink-300/20 text-xs uppercase tracking-wide;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl border border-white/15 px-4 py-2 text-sm transition;
+}
+.btn-primary {
+  @apply bg-pink-500/80 hover:bg-pink-500 text-white border-transparent shadow-lg shadow-pink-500/20;
+}
+.btn-ghost {
+  @apply hover:bg-white/10 border-white/10;
+}
+
+.glass {
+  @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-lg;
+}
+
+.container-edge {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+.card-tile {
+  @apply aspect-[3/4] rounded-xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-sm p-3 flex flex-col items-center justify-end;
+}
+.card-tile .avatar {
+  @apply absolute inset-0;
+  mask-image: radial-gradient(circle at 60% 40%, rgba(0,0,0,.3), rgba(0,0,0,.85));
+}
+.card-tile .name {
+  @apply relative z-10 text-sm font-medium drop-shadow-[0_1px_1px_rgba(0,0,0,0.8)];
+}
