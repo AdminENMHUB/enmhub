@@ -1,0 +1,6 @@
+// package.json
+{
+  "scripts": {
+    "clean": "rimraf .next .turbo .swc node_modules/.cache"
+  }
+}
