@@ -1,0 +1,5 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 25 Q 10 10, 25 10 Q 40 10, 40 25 Q 40 40, 25 40 Q 10 40, 10 25" fill="#6B46C1"/>
+  <path d="M40 25 Q 40 10, 25 10 Q 10 10, 10 25 Q 10 40, 25 40 Q 40 40, 40 25" fill="#38B2AC" transform="translate(30 0)"/>
+  <text x="80" y="35" font-size="24" fill="#333">ENM Hub</text>
+</svg>
